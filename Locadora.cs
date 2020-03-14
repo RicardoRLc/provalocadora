@@ -21,7 +21,7 @@ namespace Cliente
 			ClienteLocado cliente4 = new ClienteLocado(4, "Pepeu e nenem", "11/02/1989", "023.855.499-05", 2);
 			ClienteLocado cliente5 = new ClienteLocado(5, "Juca Tifuri", "03/08/1981", "456.456.898-89", 3);
 
-			// crinado os Filmes 
+			// criando os Filmes 
 
 			Filme filme1 = new Filme(1, "Top GUN 2", "25/06/2020",
 					"Depois de mais de 30 anos de serviço como um dos principais aviadores da Marinha, Pete Maverick Mitchell está de volta, rompendo os limites como um piloto de testes corajoso. No mundo contemporâneo das guerras tecnológicas, Maverick enfrenta drones e prova que o fator humano ainda é essencial\n",
@@ -78,7 +78,7 @@ namespace Cliente
 						locacao.AdicionaFilme(filme10);
 						Console.WriteLine(" TOTAL DAS LOCAÇÕES: R$ " + locacao.PrecoTotal());
 						Console.WriteLine(" DEVOLVER EM: " + locacao.calculoData());
-						Console.WriteLine(" Quantidade de FILMEES: " + locacao.QuantidadeDeFilmesLocados());
+						Console.WriteLine(" Quantidade de FILMES: " + locacao.QuantidadeDeFilmesLocados());
 						Console.WriteLine("\n +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 						break;
 
@@ -92,7 +92,7 @@ namespace Cliente
 						locacao.AdicionaFilme(filme10);
 						Console.WriteLine(" TOTAL DAS LOCAÇÕES: R$ " + locacao.PrecoTotal());
 						Console.WriteLine(" DEVOLVER EM: " + locacao.calculoData());
-						Console.WriteLine(" Quantidade de FILMEES: " + locacao.QuantidadeDeFilmesLocados());
+						Console.WriteLine(" Quantidade de FILMES: " + locacao.QuantidadeDeFilmesLocados());
 						Console.WriteLine("\n +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 						break;
 
@@ -110,7 +110,7 @@ namespace Cliente
 						locacao.AdicionaFilme(filme10);
 						Console.WriteLine(" TOTAL DAS LOCAÇÕES: R$ " + locacao.PrecoTotal());
 						Console.WriteLine(" DEVOLVER EM: " + locacao.calculoData());
-						Console.WriteLine(" Quantidade de FILMEES: " + locacao.QuantidadeDeFilmesLocados());
+						Console.WriteLine(" Quantidade de FILMES: " + locacao.QuantidadeDeFilmesLocados());
 						Console.WriteLine("\n +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 						break;
 
@@ -124,7 +124,7 @@ namespace Cliente
 						locacao.AdicionaFilme(filme10);
 						Console.WriteLine(" TOTAL DAS LOCAÇÕES: R$ " + locacao.PrecoTotal());
 						Console.WriteLine(" DEVOLVER EM: " + locacao.calculoData());
-						Console.WriteLine(" Quantidade de FILMEES: " + locacao.QuantidadeDeFilmesLocados());
+						Console.WriteLine(" Quantidade de FILMES: " + locacao.QuantidadeDeFilmesLocados());
 						Console.WriteLine("\n +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 						break;
 
@@ -140,7 +140,7 @@ namespace Cliente
 						locacao.AdicionaFilme(filme10);
 						Console.WriteLine(" TOTAL DAS LOCAÇÕES: R$ " + locacao.PrecoTotal());
 						Console.WriteLine(" DEVOLVER EM: " + locacao.calculoData());
-						Console.WriteLine(" Quantidade de FILMEES: " + locacao.QuantidadeDeFilmesLocados());
+						Console.WriteLine(" Quantidade de FILMES: " + locacao.QuantidadeDeFilmesLocados());
 						Console.WriteLine("\n +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 						break;
 
