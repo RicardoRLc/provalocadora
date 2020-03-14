@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Cliente
 {
 
-	public class ClienteLoc
+	public class ClienteLocado
 	{
 		
 		public int idCliente;
@@ -17,7 +17,7 @@ namespace Cliente
 
 		// Construtor
 
-		public ClienteLoc(int idCliente, String nome, String dataNascimento, String cpf, int diaDevolucao)
+		public ClienteLocado(int idCliente, String nome, String dataNascimento, String cpf, int diaDevolucao)
 		{
 			// Atributos
 			this.idCliente = idCliente;
@@ -29,7 +29,7 @@ namespace Cliente
 		}
 
 		// Método com a Quantidade de Filmes locados
-		public int QtdeFimesLocCliente(int filmesLocados)
+		public int QuantidadeDeFilmesLocados(int filmesLocados)
 		{
 			return this.filmesLocados = filmesLocados;
 		}

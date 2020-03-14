@@ -7,14 +7,14 @@ namespace Cliente
     {
         // Atributos
         public int idLocacao = 0;
-        public ClienteLoc cliente;
+        public ClienteLocado cliente;
         public String dataLocacao;
         public String dataDevolucao;
         public Double valorTotal;
 
         public List<Filme> filmes = new List<Filme>();
 
-        public Locacao(int idLocacao, ClienteLoc cliente)
+        public Locacao(int idLocacao, ClienteLocado cliente)
         {
 
             this.idLocacao = idLocacao;
@@ -43,7 +43,7 @@ namespace Cliente
 
         // Método com a Quantidade de Filmes Locados
 
-        public int QtdeFilmesLoc()
+        public int QuantidadeDeFilmesLocados()
         {
             return this.filmes.Count;
         }
