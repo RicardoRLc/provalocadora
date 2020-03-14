@@ -73,9 +73,9 @@ namespace Cliente
 						filme1.mostrarFilme();                                           
 						filme6.mostrarFilme();             // Método para imprimir o filme
 						filme10.mostrarFilme();
-						locacao.AdicFilme(filme1);        // Método para adicionar filme
-						locacao.AdicFilme(filme6);        
-						locacao.AdicFilme(filme10);
+						locacao.AdicionaFilme(filme1);        // Método para adicionar filme
+						locacao.AdicionaFilme(filme6);        
+						locacao.AdicionaFilme(filme10);
 						Console.WriteLine(" TOTAL DAS LOCAÇÕES: R$ " + locacao.PrecoTotal());
 						Console.WriteLine(" DEVOLVER EM: " + locacao.calculoData());
 						Console.WriteLine(" Quantidade de FILMEES: " + locacao.QtdeFilmesLoc());
@@ -87,9 +87,9 @@ namespace Cliente
 						locacao = new Locacao(02, cliente2);
 						filme2.mostrarFilme();
 						filme7.mostrarFilme();
-						locacao.AdicFilme(filme2);
-						locacao.AdicFilme(filme7);
-						locacao.AdicFilme(filme10);
+						locacao.AdicionaFilme(filme2);
+						locacao.AdicionaFilme(filme7);
+						locacao.AdicionaFilme(filme10);
 						Console.WriteLine(" TOTAL DAS LOCAÇÕES: R$ " + locacao.PrecoTotal());
 						Console.WriteLine(" DEVOLVER EM: " + locacao.calculoData());
 						Console.WriteLine(" Quantidade de FILMEES: " + locacao.QtdeFilmesLoc());
@@ -103,11 +103,11 @@ namespace Cliente
 						filme6.mostrarFilme();
 						filme7.mostrarFilme();
 						filme8.mostrarFilme();
-						locacao.AdicFilme(filme3);
-						locacao.AdicFilme(filme6);
-						locacao.AdicFilme(filme7);
-						locacao.AdicFilme(filme8);
-						locacao.AdicFilme(filme10);
+						locacao.AdicionaFilme(filme3);
+						locacao.AdicionaFilme(filme6);
+						locacao.AdicionaFilme(filme7);
+						locacao.AdicionaFilme(filme8);
+						locacao.AdicionaFilme(filme10);
 						Console.WriteLine(" TOTAL DAS LOCAÇÕES: R$ " + locacao.PrecoTotal());
 						Console.WriteLine(" DEVOLVER EM: " + locacao.calculoData());
 						Console.WriteLine(" Quantidade de FILMEES: " + locacao.QtdeFilmesLoc());
@@ -119,9 +119,9 @@ namespace Cliente
 						locacao = new Locacao(04, cliente1);
 						filme4.mostrarFilme();
 						filme9.mostrarFilme();
-						locacao.AdicFilme(filme4);
-						locacao.AdicFilme(filme9);
-						locacao.AdicFilme(filme10);
+						locacao.AdicionaFilme(filme4);
+						locacao.AdicionaFilme(filme9);
+						locacao.AdicionaFilme(filme10);
 						Console.WriteLine(" TOTAL DAS LOCAÇÕES: R$ " + locacao.PrecoTotal());
 						Console.WriteLine(" DEVOLVER EM: " + locacao.calculoData());
 						Console.WriteLine(" Quantidade de FILMEES: " + locacao.QtdeFilmesLoc());
@@ -134,10 +134,10 @@ namespace Cliente
 						filme1.mostrarFilme();
 						filme5.mostrarFilme();
 						filme10.mostrarFilme();
-						locacao.AdicFilme(filme1);
-						locacao.AdicFilme(filme5);
-						locacao.AdicFilme(filme10);
-						locacao.AdicFilme(filme10);
+						locacao.AdicionaFilme(filme1);
+						locacao.AdicionaFilme(filme5);
+						locacao.AdicionaFilme(filme10);
+						locacao.AdicionaFilme(filme10);
 						Console.WriteLine(" TOTAL DAS LOCAÇÕES: R$ " + locacao.PrecoTotal());
 						Console.WriteLine(" DEVOLVER EM: " + locacao.calculoData());
 						Console.WriteLine(" Quantidade de FILMEES: " + locacao.QtdeFilmesLoc());

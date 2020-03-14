@@ -6,25 +6,25 @@ namespace Cliente
     public class Locacao
     {
         // Atributos
-        public int idLoc = 0;
+        public int idLocacao = 0;
         public ClienteLoc cliente;
-        public String dataLoc;
+        public String dataLocacao;
         public String dataDevolucao;
         public Double valorTotal;
 
         public List<Filme> filmes = new List<Filme>();
 
-        public Locacao(int idLoc, ClienteLoc cliente)
+        public Locacao(int idLocacao, ClienteLoc cliente)
         {
 
-            this.idLoc = idLoc;
+            this.idLocacao = idLocacao;
             this.cliente = cliente;
 
             this.cliente.adicionarLocacao(this);
         }
 
         // Método para adicionar Filmes
-        public void AdicFilme(Filme filme)
+        public void AdicionaFilme(Filme filme)
         {
             this.filmes.Add(filme);
         }
@@ -36,7 +36,7 @@ namespace Cliente
             double total = 0;
             foreach (Filme filme in filmes)
             {
-                total += filme.valorLoc;
+                total += filme.valorLocacao;
             }
             return total;
         }
@@ -53,7 +53,7 @@ namespace Cliente
         {
             DateTime dataAtual = DateTime.Now;
 
-            return dataAtual.AddDays(cliente.diaDev).ToString("dddd, dd MMMM yyyy");
+            return dataAtual.AddDays(cliente.diaDevolucao).ToString("dddd, dd MMMM yyyy");
 
 
         }
